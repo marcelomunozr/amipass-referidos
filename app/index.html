@@ -1,0 +1,167 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Amipass - Referidos</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="shortcut icon" href="favicon.ico" type="image/ico" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <!-- endbuild -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,900,800,700,600,500,300' rel='stylesheet' type='text/css'><!-- font-family: 'Raleway', sans-serif; -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'><!-- font-family: 'Open Sans', sans-serif; -->
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <header>
+        <div class="container">
+            <div class="logo"></div>
+        </div>
+    </header>
+    
+
+    <!-- MODAL INFORMACIÓN -->
+    <div class="modal fade modalInfo" tabindex="-1" role="dialog" aria-labelledby="myInfo">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <img src="images/info.jpg" alt="Info" class="img-responsive img-center">
+        </div>
+      </div>
+    </div>
+    <!-- MODAL BASES -->
+    <div class="modal fade modalBase" tabindex="-1" role="dialog" aria-labelledby="myBases">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <img src="images/bases.jpg" alt="Bases" class="img-responsive img-center">
+        </div>
+      </div>
+    </div>
+    <!-- MODAL PREMIOS -->
+    <div class="modal fade modalPremios" tabindex="-1" role="dialog" aria-labelledby="myPremios">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <img src="images/premios.jpg" alt="Premios" class="img-responsive img-center">
+        </div>
+      </div>
+    </div>
+
+
+    <section class="form-section">
+        <h2>Estás a sólo <br>1 paso de lograrlo</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <p>Completa el formulario con los datos de la empresa que nos quieres referir</p>
+                </div>
+                <div class="clear30"></div>
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="row">
+                        <form>
+                            <div class="col-md-4 col-md-offset-1">
+                                <div class="form-group">
+                                    <label for="nombreEmpresa">Nombre Empresa*</label>
+                                    <input type="text" class="form-control" id="nombreEmpresa" required="required">
+                                </div>  
+                                <div class="form-group">
+                                    <label for="nombrePersona">Nombre Persona*</label>
+                                    <input type="text" class="form-control" id="nombrePersona" required="required">
+                                </div> 
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" id="email">
+                                </div>  
+                                <div class="form-group">
+                                    <label for="web">Web</label>
+                                    <input type="text" class="form-control" id="web">
+                                </div>                       
+                            </div> 
+                            <div class="col-md-4 col-md-offset-2">
+                                <div class="form-group">
+                                    <label for="razon">Razón Social</label>
+                                    <input type="text" class="form-control" id="razon">
+                                </div>  
+                                <div class="form-group">
+                                    <label for="telefono">Teléfono*</label>
+                                    <input type="text" class="form-control" id="telefono" required="required">
+                                </div>  
+                                <div class="form-group">
+                                    <label for="cargo">Cargo</label>
+                                    <input type="text" class="form-control" id="cargo">
+                                </div>  
+                                <div class="form-group">
+                                    <label for="rutEmpresa">Rut Empresa*</label>
+                                    <input type="text" class="form-control" id="rutEmpresa" required="required">
+                                </div> 
+                                <div class="text-right">
+                                    <a href="" class="btn trans">enviar</a>
+                                </div>                       
+                            </div>                    
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="btn-section">
+        <div class="text-center">
+            <a href="#" class="btn trans" data-toggle="modal" data-target=".modalInfo">más información</a>
+            <a href="#" class="btn trans" data-toggle="modal" data-target=".modalBase">ver bases</a>
+            <a href="#" class="btn trans" data-toggle="modal" data-target=".modalPremios">ver premios</a>
+        </div>
+    </section>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    
+    <!-- build:js scripts/plugins.js -->
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
+    <!-- endbuild -->
+    
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
